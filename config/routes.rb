@@ -14,7 +14,10 @@ Rails.application.routes.draw do
       resource :accesses, only: [:create, :destroy]
     end
 
-    resources :events, except: :show
+    resources :events, except: :show do
+      get    '/certificates/',            to: 'certificates#index'
+    end
+
   end
 
   root 'welcome#index'

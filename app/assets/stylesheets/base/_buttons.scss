@@ -61,6 +61,7 @@ button[type="submit"],
 .btn-edit,
 .btn-back,
 .btn-delete,
+.btn-save,
 .atc-style-button-icon {
   @extend %btn;
 }
@@ -71,6 +72,14 @@ button[type="submit"],
 
   &:hover {
     background-color: lighten($blue-color, 10%);
+  }
+}
+
+.btn-save {
+  background-color: lighten($green-color, 20%);
+  box-shadow: 0 3px 0 darken($green-color, 10%);
+  &:hover {
+    background-color: lighten($green-color, 10%);
   }
 }
 

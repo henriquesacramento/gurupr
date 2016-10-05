@@ -1,9 +1,9 @@
 en:
   admin:
-    events:
+    certificates:
       index:
-        title: Events
-        subtitle: Events Management
+        title: Certificates
+        subtitle: Certificates Management of Event
         # attributes
         name: Name
         local: Location

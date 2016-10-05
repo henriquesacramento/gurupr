@@ -23,6 +23,9 @@
           td = event.address
           td = event.occurred_at
           td
+            = link_to admin_event_certificates_path(event), title: t('.certificate'), class: 'btn-save btn-small' do
+              = fa_icon 'file-text-o'
+            '
             = link_to edit_admin_event_path(event), title: t('.edit'), class: 'btn-edit btn-small' do
               = fa_icon 'pencil-square-o'
             '

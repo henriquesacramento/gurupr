@@ -1,9 +1,9 @@
 pt-BR:
   admin:
-    events:
+    certificates:
       index:
-        title: Eventos
-        subtitle: Gerenciamento de eventos
+        title: Certificados
+        subtitle: Gerenciamento de Certificados do Evento
         # attributes
         name: Nome
         local: Local
